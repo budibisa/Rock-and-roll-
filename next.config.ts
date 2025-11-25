@@ -1,15 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  webpack: (config) => {
-    // Ensure externals exists and is an array
-    if (!config.externals) {
-      config.externals = [];
-    }
+// next.config.ts
+import type { NextConfig } from "next";
 
+const nextConfig: NextConfig = {
+  webpack: (config) => {
     config.externals.push("pino-pretty", "lokijs", "encoding");
     return config;
   },
-
   async redirects() {
     return [
       {
@@ -22,4 +18,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
