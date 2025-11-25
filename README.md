@@ -34,7 +34,7 @@ npm install
 Create a `.env.local` file and add your environment variables:
 
 ```bash
-NEXT_PUBLIC_PROJECT_NAME="Your App Name"
+NEXT_PUBLIC_PROJECT_NAME="Rock and Roll"
 NEXT_PUBLIC_ONCHAINKIT_API_KEY=<Replace-WITH-YOUR-CDP-API-KEY>
 NEXT_PUBLIC_URL=
 ```
@@ -70,7 +70,7 @@ You should have a URL deployed to a domain similar to: `https://your-vercel-proj
 Add your production URL to your local `.env` file:
 
 ```bash
-NEXT_PUBLIC_PROJECT_NAME="Your App Name"
+NEXT_PUBLIC_PROJECT_NAME="Rock and Roll"
 NEXT_PUBLIC_ONCHAINKIT_API_KEY=<Replace-WITH-YOUR-CDP-API-KEY>
 NEXT_PUBLIC_URL=https://your-vercel-project-name.vercel.app/
 ```
